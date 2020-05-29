@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 COPY xorgxrdp-0.2.13.tar.gz /opt/
-COPY ../xrdp/xrdp_0.9.13-1_amd64.deb /opt/
+COPY xrdp_0.9.13-1_amd64.deb /opt/
 
 ENV DEBIAN_FRONTEND=noninteractive
 
